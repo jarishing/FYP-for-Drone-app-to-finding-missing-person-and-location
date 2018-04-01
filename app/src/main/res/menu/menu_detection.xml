@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Cancel_Detection_Select"
+        android:title="Original Camera" />
+
+    <item
+        android:id="@+id/HOG_Detection_Select"
+        android:title="Human Detection" />
+
+    <item
+        android:id="@+id/Color_Detection_Select"
+        android:title="Color Detection" >
+        <menu>
+            <item
+                android:id="@+id/Red_Color_Selected"
+                app:showAsAction="always"
+                android:title="Red"/>
+            <item
+                android:id="@+id/Blue_Color_Selected"
+                app:showAsAction="always"
+                android:title="Blue"/>
+            <item
+                android:id="@+id/Green_Color_Selected"
+                app:showAsAction="always"
+                android:title="Green"/>
+            <item
+                android:id="@+id/Black_Color_Selected"
+                app:showAsAction="always"
+                android:title="Black"/>
+            <item
+                android:id="@+id/White_Color_Selected"
+                app:showAsAction="always"
+                android:title="White"/>
+        </menu>
+    </item>
+
+</menu>

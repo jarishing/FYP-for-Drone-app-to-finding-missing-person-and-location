@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:id="@+id/Title_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find"
+        android:textSize="90dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginEnd="30dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignEnd="@+id/start_button" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/title_drone"
+        android:id="@+id/imageView10"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginStart="19dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/title_people"
+        android:id="@+id/imageView3"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignStart="@+id/start_button" />
+
+    <TextView
+        android:id="@+id/Title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ng"
+        android:textSize="90dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_below="@+id/imageView10"
+        android:layout_toEndOf="@+id/start_button"
+        android:layout_marginStart="8dp" />
+
+    <ImageButton
+        android:id="@+id/start_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/start_button"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+         />
+
+</RelativeLayout>
