@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![alt](https://holland.pk/uptow/i4/e33cac584c52c2677169c15118bc9cdd.png)
+
 "Finding" is a mobile app for the user using it to detect and locate missing person.
 
 It bases on basic function of drone’s app and implement an additional function inside the app 
@@ -19,6 +21,8 @@ user in efficient and effective ways easily find out the target.
 − Record the drone’s view and location to save for reference
 
   This App provide human detection and color detection by using OpenCV. It use to detect the person on the drone's view and identify the target by wearing.
+  
+  ![alt](https://holland.pk/uptow/i4/a3b19bd5da0c3c74bdc5a10f0858614b.png)
   
   ## Prerequisites
   
@@ -39,6 +43,8 @@ user in efficient and effective ways easily find out the target.
      **If the connection is sucess, it will infrom a message "Register Success", otherwise it will infrom  "Register sdk fails, check network is available"**
   
   4. Enter the Connection button, your phone will show up the drone's view
+  
+![alt](https://holland.pk/uptow/i4/30f19a01955dbebeaf2e836a39040f5b.png)
   
   
   
